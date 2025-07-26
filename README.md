@@ -96,7 +96,7 @@ This case study demonstrates how Excel can be a powerful tool for business intel
 ---
 
 ## 📐 Data Structure  
-![Data Model](Sales Project using Excel/Screenshot13.png?raw=true)
+![Data Model](Sales%20Project%20using%20Excel/Screenshot13.png?raw=true)
 
 ---
 
