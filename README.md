@@ -100,34 +100,17 @@ This case study demonstrates how Excel can be a powerful tool for business intel
 
 ---
 
-## 📈 Dashboard Preview  
-<img src="https://github.com/your-username/your-repo/blob/main/assets/dashboard-1.png?raw=true" width="1000">
-<img src="https://github.com/your-username/your-repo/blob/main/assets/dashboard-2.png?raw=true" width="1000">
-
----
-
-## 🎥 Project Demo  
-<img src="https://github.com/your-username/your-repo/blob/main/assets/demo.gif?raw=true" width="1000">
-
----
 
 ## 🔍 Key Insights
-1. **Insight #1**: [e.g., Certain products contribute disproportionately to total revenue]  
-2. **Insight #2**: [e.g., Seasonal peaks identified in sales trends]  
-3. **Insight #3**: [e.g., Loyal customer segments revealed through repeat orders]  
-4. **Insight #4**: [e.g., Some regions underperform despite high customer count]  
-5. **Insight #5**: [e.g., Inventory challenges during promotional periods]  
+1. **Top-performing products** like *Tables* and *Chairs* contributed significantly to overall revenue across the years.
+2. **Monthly sales trends** revealed seasonal peaks, especially during Q4 of each year.
+3. **High-value customers** were identified based on frequent orders and larger purchase amounts.
+4. The **Consumer segment** showed the highest engagement compared to Corporate and Home Office segments.
+5. **Regional analysis** highlighted strong performance in the *West* region in terms of both orders and revenue.
 
 ---
 
-## 💡 Conclusion  
-This Excel dashboard project demonstrates how powerful insights can be generated using only Excel tools. It helps stakeholders track KPIs, discover hidden patterns, and improve decision-making without relying on external BI tools.
+## 💡 Conclusion
+This Excel project demonstrates the power of using Excel's built-in tools—such as **Power Query**, **PivotTables**, **Power Pivot**, and **Dashboard Design**—to perform in-depth data analysis.
 
----
-
-## 🧰 Tools Used
-- **Microsoft Excel**  
-- **PivotTables & Charts**  
-- **Conditional Formatting**  
-- **Excel Formulas (e.g., SUMIFS, VLOOKUP/XLOOKUP)**  
-- **Data Validation & Slicers**
+By consolidating and analyzing sales data from 2015 to 2018, the final dashboard delivers valuable business insights, helping stakeholders monitor performance, identify opportunities, and make data-driven decisions—all without relying on external BI platforms.
