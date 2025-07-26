@@ -25,19 +25,39 @@
   <summary><strong>📂 Data Sources (click)</strong></summary>
 
 ### **Data Sources**  
-> The dataset consists of four separate yearly sales sheets (2015, 2016, 2017, 2018) that were combined and cleaned to form a single structured dataset.
+> The project is based on a structured data model consisting of **three main tables**:
 
-**▼ 📑 Key Columns in Sales Table**  
-- `Order ID`, `Order Date`, `Product`, `Category`, `Region`, `Quantity`, `Unit Price`, `Total Sales`
+1. **Fact Sales Table**  
+   - Contains transactional data from 2015 to 2018  
+   - Key Columns: `Order ID`, `Order Date`, `Customer ID`, `Product ID`, `Quantity`, `Unit Price`, `Total Sales`
+
+2. **Product Table**  
+   - Describes each product with its attributes  
+   - Key Columns: `Product ID`, `Product Name`, `Category`, `Cost`
+
+3. **Customer Table**  
+   - Contains customer information and segmentation  
+   - Key Columns: `Customer ID`, `Customer Name`, `Segment`, `Region`
+
+> The data was cleaned and transformed using Power Query, and relationships were built between tables using Power Pivot to enable advanced analysis.
+</details>
 
 ---
 
 ## 🎯 Case Study  
-This project simulates a real-world scenario where a business required an Excel dashboard to:
-- Track sales performance over time  
-- Identify top and low-performing products  
-- Understand customer segments and behaviors  
-- Assist in planning marketing and operations strategies  
+This project simulates a real-world business scenario where a company needed to analyze historical sales data spread across multiple Excel sheets from 2015 to 2018.
+
+The original data was fragmented, inconsistent, and difficult to analyze. To solve this, I used Power Query to append all sheets into a single dataset, applied data cleaning techniques to ensure accuracy, and built relationships using Power Pivot.
+
+The goal was to create an interactive Excel dashboard that allows stakeholders to:
+- Track sales performance over four years  
+- Compare year-over-year trends  
+- Identify top-performing products and regions  
+- Understand seasonal or monthly patterns in sales  
+- Make data-driven decisions in sales, inventory, and marketing strategies
+- ...I used Power Query to append all sheets into a single dataset, applied data cleaning techniques to ensure accuracy, and built a data model consisting of fact and dimension tables (Sales, Product, Customer) using Power Pivot.
+
+This case study demonstrates how Excel can be a powerful tool for business intelligence, even without external BI software.  
 
 ---
 
