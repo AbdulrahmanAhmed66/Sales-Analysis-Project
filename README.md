@@ -62,28 +62,41 @@ This case study demonstrates how Excel can be a powerful tool for business intel
 ---
 
 ## 📊 Main KPIs
-- **💰 Total Revenue**
-- **📦 Number of Orders**
-- **👥 Total Customers**
-- **🏆 Best Performing Products**
-- **📉 Low Performing Products**
-- **🕒 Monthly Sales Trends**
-- **📍 Sales by Region**
-- **📊 Customer Segments**
+
+- **💰 Total Sales** – 2.29M  
+- **📦 Total Quantity Sold** – 38K units  
+- **🧾 Total Orders** – 5003  
+- **🏆 Top 10 Customers by Sales** – Based on total revenue  
+- **🕒 Monthly Sales Trends** – Line chart showing sales quantity by month   
+- **📍 Sales by Region** – Sales split across West, East, Central, South  
+- **💲 Average Discount Applied** – 16%
+
 
 ---
 
 ## ⚙️ Process
-1. Collected and prepared raw data in Excel  
-2. Cleaned and structured data using Excel Tables and formulas  
-3. Used PivotTables and PivotCharts to generate insights  
-4. Applied conditional formatting for highlights  
-5. Designed a clear and interactive Excel dashboard sheet  
+
+1. **Data Aggregation**  
+   - Collected sales data from 2015 to 2018 and combined it using Power Query (Append Queries)
+
+2. **Data Cleaning**  
+   - Removed blanks, handled data types, and ensured consistency across all columns
+
+3. **Data Modeling**  
+   - Created relationships between the Fact Table and Dimension Tables (Product and Customer) using Power Pivot
+
+4. **KPI Calculation**  
+   - Created calculated columns and measures (e.g., Total Sales, Total Profit, Avg. Discount)
+
+5. **Dashboard Design**  
+   - Built Pivot Tables and Charts  
+   - Used slicers for interactivity (Year, Region, Category, Segment)  
+   - Organized the layout in a clean, user-friendly dashboard sheet
 
 ---
 
 ## 📐 Data Structure  
-![Data Model](https://github.com/your-username/your-repo/blob/main/assets/data-model.png?raw=true)
+![Data Model](?raw=true)
 
 ---
 
